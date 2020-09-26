@@ -1,7 +1,7 @@
 ﻿/// <binding />
-const { task, src, dest, series, watch } = require("gulp");
+const { task, src, dest, series, watch, parallel } = require("gulp");
 var sass = require("gulp-sass");
-var sourcemap = require("gulp-sourcemaps")
+var sourcemap = require("gulp-sourcemaps");
 
 task("style", function () {
     return src("Content/SASS/**/*.scss")
@@ -16,8 +16,7 @@ task("style", function () {
 
 });
 
-//task("default", series("style"));
-
-task("watch", series("style"), function () {
-    watch("Content/SASS/**/*.scss",["style"]);
+task('watch', function () {
+    watch("Content/SASS/**/*.scss", series('style'));
 });
+

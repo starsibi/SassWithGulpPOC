@@ -1,1 +1,1 @@
-{"version":3,"file":"variables.css","sources":["variables.scss"],"sourcesContent":["$bg : red;\r\n$fontcolor : black;"],"names":[],"mappings":""}
+{"version":3,"file":"variables.css","sources":["variables.scss"],"sourcesContent":["$bg : red;\r\n$fontcolor : yellow;"],"names":[],"mappings":""}
