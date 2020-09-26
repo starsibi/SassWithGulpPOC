@@ -1,0 +1,1 @@
+{"version":3,"file":"demo.css","sources":["demo.scss","variables.scss"],"sourcesContent":["@import\"../SASS/variables.scss\";\r\n\r\nbody {\r\n    background-color:$bg;\r\n    color:$fontcolor;\r\n}\r\n","﻿$bg : red;\r\n$fontcolor : black;"],"names":[],"mappings":"AAEA,AAAA,IAAI,AAAC,CACD,gBAAgB,CCHd,GAAG,CDIL,KAAK,CCHI,IAAK,CDIjB"}

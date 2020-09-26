@@ -1,0 +1,11 @@
+{
+  "author": "Prithiviraj",
+  "version": "1.0.0",
+  "name": "SassPOC",
+  "description": "Tring POC with Sass and Gulp",
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-sass": "4.1.0",
+    "gulp-sourcemaps": "2.6.5"
+  }
+}
